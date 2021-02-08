@@ -1,0 +1,128 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+
+.main-nav {
+  width: 90%;
+	max-width: 240px;
+	margin: 0 auto;
+  height: 100%;
+  cursor: pointer;
+}
+.main-nav ul {
+	position: absolute;
+  width: 100%;
+	top: 40%;
+	margin: 0;
+	padding: 0;
+}
+.main-nav li {
+	list-style: none;
+	float: left;
+}
+.main-nav a {
+  display: block;
+  height: 50px;
+	margin: 10px;
+	padding: 2px 25px;
+	text-decoration: none;
+	border-radius: 30px;
+  line-height: 45px;
+  color: #FFF;
+	-webkit-transition: all 0.30s ease-in-out;
+  	-moz-transition: all 0.30s ease-in-out;
+  	-ms-transition: all 0.30s ease-in-out;
+  	-o-transition: all 0.30s ease-in-out;
+}
+
+.main-nav li:nth-child(1) a {
+	background: #d83d3d;
+	border: 2px solid #fff;
+}
+.main-nav li:nth-child(1) a:hover {
+	background: #fff;
+	color: #d83d3d;
+}
+
+.main-nav li:nth-child(2) a {
+  background: #9e2c2c;
+	border: 2px solid #9e2c2c;
+}
+.main-nav li:nth-child(2) a:hover {
+	background: #b13131;
+	border: 2px solid #b13131;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-box {
+    margin-top: 75px;
+    height: auto;
+    background: #1A2226;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.login-key {
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.btn-outline-primary {
+    border-color: #0DB8DE;
+    color: #0DB8DE;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #0DB8DE;
+    right: 0px;
+}
+
+.login-btm {
+    float: left;
+}
+
+
+
+.login-text {
+    text-align: left;
+    padding-left: 0px;
+    color: #A2A4A4;
+}
+
+.loginbttm {
+    padding: 0px;
+}

@@ -19,8 +19,8 @@ const usersRouter = require("./routes/users");
 const app = express();
 
 //db
-const db = require("./config/config").mongoURI;
-mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true });
+const db = process.env.mongoURI;
+mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true }).then(()=> console.log("server connected"))
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
